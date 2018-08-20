@@ -12,6 +12,8 @@ div#titulo_hylian {
     font-family: HylianFont;
     font-size: 300%;
     margin-bottom: 10px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
 }
 
 div#capsula_audio {
