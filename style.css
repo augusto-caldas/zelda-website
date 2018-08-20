@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: HylianFont;
     src: url("Hylian Type.otf");
@@ -17,7 +16,7 @@ div#capsula_audio {
 
 div#centralizador_capsula {
     margin: auto;
-    width: fit-content; 
+    width: fit-content;
 }
 
 audio {
