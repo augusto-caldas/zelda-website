@@ -25,6 +25,10 @@ div#centralizador_capsula {
     width: fit-content;
 }
 
+img#imagem_principal {
+    margin-bottom: 30px;
+}
+
 audio {
     margin: 25px;
     width: 250px;
