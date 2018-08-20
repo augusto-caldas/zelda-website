@@ -1,0 +1,11 @@
+
+@font-face {
+    font-family: HylianFont;
+    src: url("Hylian Type.otf");
+}
+
+div#titulo_hylian {
+    color: #CCA711;
+    font-family: HylianFont;
+    font-size: 300%;
+ }
