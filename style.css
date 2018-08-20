@@ -3,8 +3,12 @@
     src: url("Hylian Type.otf");
 }
 
+html {
+    background-color: #e9fbec;
+}
+
 div#titulo_hylian {
-    color: #CCA711;
+    color: #cca711;
     font-family: HylianFont;
     font-size: 300%;
     margin-bottom: 10px;
