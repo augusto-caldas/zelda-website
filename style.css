@@ -11,7 +11,7 @@ div#titulo_hylian {
     color: #cca711;
     font-family: HylianFont;
     font-size: 300%;
-    margin-bottom: 10px;
+    margin: 40px;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #000;
 }
