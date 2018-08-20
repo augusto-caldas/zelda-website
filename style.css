@@ -8,4 +8,19 @@ div#titulo_hylian {
     color: #CCA711;
     font-family: HylianFont;
     font-size: 300%;
- }
+    margin-bottom: 10px;
+}
+
+div#capsula_audio {
+    width: 100%;
+}
+
+div#centralizador_capsula {
+    margin: auto;
+    width: fit-content; 
+}
+
+audio {
+    margin: 25px;
+    width: 250px;
+}
