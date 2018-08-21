@@ -25,11 +25,31 @@ div#centralizador_capsula {
     width: fit-content;
 }
 
+div.capsula_audio_texto {
+    display: inline-block;
+    margin: 25px;
+}
+
+div.texto_encapsulado {
+    width: 250px;
+    text-align: center;
+    font-family: HylianFont;
+    font-size: 20px;
+    background-color: #ccc;
+    border-radius: 25px 25px 0px 0px;
+    padding-top: 10px;
+}
+
 img#imagem_principal {
     margin-bottom: 30px;
 }
 
 audio {
-    margin: 25px;
     width: 250px;
+    background-color: #ccc;
+    border-radius: 0px 0px 25px 25px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #ccc;
 }
