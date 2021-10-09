@@ -10,9 +10,9 @@ html {
 div#titulo_hylian {
     color: #cca711;
     font-family: HylianFont;
-    font-size: 300%;
+    font-size: 1000%;
     margin: 40px;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 5px;
     -webkit-text-stroke-color: #000;
 }
 
@@ -27,7 +27,7 @@ div#centralizador_capsula {
 
 div.capsula_audio_texto {
     display: inline-block;
-    margin: 25px;
+    margin: 40px;
 }
 
 div.texto_encapsulado {
@@ -40,8 +40,18 @@ div.texto_encapsulado {
     padding-top: 10px;
 }
 
-img#imagem_principal {
+p {
     margin-bottom: 30px;
+    margin-top: 30px;
+    width: min-content;
+    display: flex;
+}
+
+a.vertical-auto-margin {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 audio {
