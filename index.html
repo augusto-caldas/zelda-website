@@ -4,6 +4,21 @@
         <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
         <meta name="theme-color" content="#090"/>
         <title>Zelda Games</title>
+        <script>
+          window.addEventListener("load", function () {
+              listImage = document.getElementsByTagName("img");
+              for (i = 0; i < listImage.length; i = i + 1) {
+                  stringName = listImage[i].getAttribute("id");
+                  listName = stringName.split("_");
+                  for (j = 0; j < listName.length; j = j + 1) {
+                      listName[j] = listName[j][0].toUpperCase() + listName[j].substr(1);
+                  }
+                  newStringName = listName.join(" ");
+                  listImage[i].setAttribute("title", newStringName);
+                  listImage[i].setAttribute("alt", newStringName);
+              }
+          })
+        </script>
     </head>
     <body>
         <center>
